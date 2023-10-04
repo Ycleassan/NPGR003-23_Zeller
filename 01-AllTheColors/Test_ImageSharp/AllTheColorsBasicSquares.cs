@@ -22,7 +22,5 @@ using (var image = new Image<Rgba32>(256*16, 256*16))
       GB_Square((byte)(16*i + j), 256*i, 256*j, image);
     }
   }
-
-
   image.SaveAsPng("..\\..\\..\\..\\16mColorsZeller.png");
 }
